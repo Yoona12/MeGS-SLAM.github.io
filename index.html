@@ -7,7 +7,7 @@
     content="LightGaussian efficiently compresses 3D scene data, enhancing performance and reducing storage needs while preserving visual quality.">
   <meta name="keywords" content="LightGaussian, lightgaussian, Gaussian Splatting, Gaussian">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting</title>
+  <title>MeGS-SLAM:Memory Efficient Gaussian Splatting SLAM with Graph Signal Processing</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -88,7 +88,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title"><span style="color: #e25757;font-weight: bolder;">GS-SLAM</span>: Dense Visual SLAM with 3D Gaussian Splatting
+            <h1 class="title is-1 publication-title"><span style="color: #e25757;font-weight: bolder;">MeGS-SLAM</span>: Memory Efficient Gaussian Splatting SLAM with Graph Signal Processing
             </h1>
             <h3 class="title is-4 conference-authors"><a target="_blank" href="https://cvpr.thecvf.com/">CVPR 2024 (highlight)</a></h3>
             <div class="is-size-5 publication-authors">
@@ -158,12 +158,12 @@
               </span> -->
                 <!-- Code Link. -->
                 <span class="link-block">
-                  <a href="https://github.com/NPU-YanChi/diff-gaussian-rasterization-for-gsslam"
+                  <a href=""
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Modified Rasterization Code</span>
+                    <span>Coming Soon</span>
                   </a>
                 </span>
               </div>
@@ -261,7 +261,7 @@
           <div class="content has-text-justified">
             <img src="./static/images/head3.png">
             <p>
-              In this paper, we introduce <span style="color: #e89292;font-weight: bolder;">GS-SLAM</span> 
+              In this paper, we introduce <span style="color: #e89292;font-weight: bolder;">MeGS-SLAM</span> 
               that first utilizes 3D Gaussian representation in the Simultaneous Localization and Mapping (SLAM) system. 
               It facilitates a better balance between efficiency and accuracy. Compared to recent SLAM methods employing neural implicit representations, our method utilizes a real-time differentiable splatting rendering pipeline that offers significant speedup to map optimization and RGB-D rendering. Specifically, we propose an adaptive expansion strategy that adds new or deletes noisy 3D Gaussians in order to efficiently reconstruct new observed scene geometry and improve the mapping of previously observed areas. This strategy is essential to extend 3D Gaussian representation to reconstruct the whole scene rather than synthesize a static object in existing methods. Moreover, in the pose tracking process, an effective coarse-to-fine technique is designed to select reliable 3D Gaussian representations to optimize camera pose, resulting in runtime reduction and robust estimation. Our method achieves competitive performance compared with existing state-of-the-art real-time methods on the Replica, TUM-RGBD datasets.        </p>
           </div>
@@ -511,9 +511,8 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@inproceedings{yan2023gs,
-  author    = {Yan, Chi and Qu, Delin and Xu, Dan and Zhao, Bin and Wang, Zhigang and Wang, Dong and Li, Xuelong},
-  title     = {GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting},
-  booktitle = {CVPR},
+  author    = {Zhang, Sude and Zhang, Zhiyong},
+  title     = {MeGS-SLAM:Memory Efficient Gaussian Splatting SLAM with Graph Signal Processing},
   year      ={2024},
 }</code></pre>
   </div>
