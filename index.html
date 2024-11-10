@@ -331,54 +331,17 @@
 
   
   <section class="section">
-    <div class="container ">
-      <div class=" has-text-centered">
-        <h2 class="title is-3" style="color: #e25757;font-weight: bolder;">Ablation Study on ScanNet Dataset</h2>
-        <div class="content has-text-justified">
-           <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #363636;font-size: 20px;font-weight: bolder;">Ablation on edge priors</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #363636;font-size: 20px;font-weight: bolder;">Ablation on GSP</span>
-            <p>
-        </div>
-        <div class="columns is-centered">
-          <!-- Visual Effects. -->
-          <div class="column">
-            <div class="content">
-              <div class="columns is-centered">
-                  <img src="./static/images/render/total render.png">
-              </div>
-
-
-                  <div id="example8" class="bal-container-small">
-
-                    <div class="bal-after">
-                      <img src="./static/images/render/our_co_slam_render.jpg">
-                      <div class="bal-afterPosition afterLabel">
-                        Ours
-                      </div>
-                    </div>
-
-                    <div class="bal-before" style="width: 50%;">
-                      <div class="bal-before-inset" style="width: 539px;">
-                        <img src="./static/images/render/co_slam_render.jpg">
-                        <div class="bal-beforePosition beforeLabel">
-                          Co-SLAM
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="bal-handle" style="left: 50%;">
-                      <span class=" handle-left-arrow"></span>
-                      <span class="handle-right-arrow"></span>
-                    </div>
-
-                  </div>
-           
-                </div>
-              </div>
-            </div>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <img src="./static/images/render/total_render.png">
+            <p>Result on Replica dataset. We outperform existing dense neural RGB-D methods on the commonly reported
+              rendering metrics. Note that GS-SLAM achieves 386 FPS on average, benefitting from the efficient 3DGS scene representation.</p>
           </div>
+        </div>
       </div>
-          <!--/ Visual Effects. -->
+    </div>
   </section>
 
  <section class="section">
