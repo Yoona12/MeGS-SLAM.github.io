@@ -302,11 +302,9 @@
             <h2 class="title is-4" style="color: #e25757;font-weight: bolder;">&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp
               &nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbspReplica Dataset</h2>
             <img src="./static/images/topview.png">
-            <p><strong>Overview of the proposed method.</strong>
-              We aim to use 3D Gaussians to represent the scene and use the rendered RGB-D image for
-              inverse camera tracking. <span style="color: #e89292;font-weight: bolder;">GS-SLAM</span> proposes a novel Gaussian expansion strategy to make the 3D Gaussian feasible to reconstruct the
-              whole scene. For camera tracking of every input frame, we derive an analytical formula for backward optimization with re-rendering RGB-D loss, and further introduce an effective coarse-to-fine technique to minimize 
-              re-rendering losses to achieve efficient and accurate pose estimation. <span style="color: #e89292;font-weight: bolder;">GS-SLAM</span> can achieve real-time tracking, mapping, and rendering performance on GPU.</p>
+            <p>
+              
+            </p>
           </div>
           <div class="columns is-centered">
           <!-- Visual Effects. -->
@@ -324,7 +322,7 @@
 
                     <div class="bal-before" style="width:96.4968152866242%;">
                       <div class="bal-before-inset" style="width: 539px;">
-                        <img src="./static/images/render/ablation_scannet_scene0_main_1955.png">
+                        <img src="./static/images/render/Scale_off_room0_0_main_cut.png">
                         <div class="bal-beforePosition beforeLabel">
                           w/o edge priors
                         </div>
@@ -508,136 +506,6 @@
 
   
 
-  <!-- section class="section">
-    <div class="container ">
-      <div class=" has-text-centered">
-        <h2 class="title is-3" style="color: #e25757;font-weight: bolder;">Render Comparisons</h2>
-        <div class="content has-text-justified">
-          <p>
-
-          </p>
-        </div>
-        <div class="columns is-centered">
-          <!-- Visual Effects. -->
-          <div class="column">
-            <div class="content">
-              <div class="columns is-centered">
-                <div class="column is-full-width">
-                  <div id="example1" class="bal-container-small">
-
-                    <div class="bal-after">
-                      <img src="./static/images/render/Scale_off_room0_9_full_cut.png">
-                      <div class="bal-afterPosition afterLabel" style="z-index:1;">
-                        Ours
-                      </div>
-                    </div>
-
-                    <div class="bal-before" style="width:96.4968152866242%;">
-                      <div class="bal-before-inset" style="width: 539px;">
-                        <img src="./static/images/render/Scale_off_room0_0_main_cut.png">
-                        <div class="bal-beforePosition beforeLabel">
-                          NICE-SLAM
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="bal-handle" style="left:96.4968152866242%;">
-                      <span class=" handle-left-arrow"></span>
-                      <span class="handle-right-arrow"></span>
-                    </div>
-
-                  </div>
-
-
-                  <div id="example2" class="bal-container-small">
-
-                    <div class="bal-after">
-                      <img src="./static/images/render/our_co_slam_render.jpg">
-                      <div class="bal-afterPosition afterLabel">
-                        Ours
-                      </div>
-                    </div>
-
-                    <div class="bal-before" style="width: 50%;">
-                      <div class="bal-before-inset" style="width: 539px;">
-                        <img src="./static/images/render/co_slam_render.jpg">
-                        <div class="bal-beforePosition beforeLabel">
-                          Co-SLAM
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="bal-handle" style="left: 50%;">
-                      <span class=" handle-left-arrow"></span>
-                      <span class="handle-right-arrow"></span>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--/ Visual Effects. -->
-
-          <!-- Matting. -->
-          <div class="column">
-            <div class="columns is-centered">
-              <div class="column content">
-
-                <div id="example4" class="bal-container-small">
-                  <div class="bal-after">
-                    <img src="./static/images/render/ScreenCapture_2024-10-29-19-51-10-full.png">
-                    <div class="bal-afterPosition afterLabel" style="z-index:1;">
-                      Ours
-                    </div>
-                  </div>
-
-                  <div class="bal-before" style="width:62.10191082802548%;">
-                    <div class="bal-before-inset" style="width: 539px;">
-                      <img src="./static/images/render/ScreenCapture_2024-10-29-19-51-10-mian.png">
-                      <div class="bal-beforePosition beforeLabel">
-                        SplaTAM
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="bal-handle" style="left:62.10191082802548%;">
-                    <span class=" handle-left-arrow"></span>
-                    <span class="handle-right-arrow"></span>
-                  </div>
-
-                </div>
-
-                <div id="example5" class="bal-container-small">
-                  <div class="bal-after">
-                    <img src="./static/images/render/ScreenCapture_2024-10-29-19-51-10-full.png">
-                    <div class="bal-afterPosition afterLabel" style="z-index:1;">
-                      Ours
-                    </div>
-                  </div>
-
-                  <div class="bal-before" style="width:56.77179962894249%;">
-                    <div class="bal-before-inset" style="width: 628px;">
-                      <img src="./static/images/render/e_slam_render.jpg">
-                      <div class="bal-beforePosition beforeLabel">
-                        ESLAM
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="bal-handle" style="left:56.77179962894249%;">
-                    <span class=" handle-left-arrow"></span>
-                    <span class="handle-right-arrow"></span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section --!>
 
 
 
