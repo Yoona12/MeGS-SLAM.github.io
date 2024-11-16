@@ -308,6 +308,66 @@
               whole scene. For camera tracking of every input frame, we derive an analytical formula for backward optimization with re-rendering RGB-D loss, and further introduce an effective coarse-to-fine technique to minimize 
               re-rendering losses to achieve efficient and accurate pose estimation. <span style="color: #e89292;font-weight: bolder;">GS-SLAM</span> can achieve real-time tracking, mapping, and rendering performance on GPU.</p>
           </div>
+          <div class="columns is-centered">
+          <!-- Visual Effects. -->
+          <div class="column">
+            <div class="content">
+              <div class="columns is-centered">
+                  <div id="example7" class="bal-container-small">
+
+                    <div class="bal-after">
+                      <img src="./static/images/render/ablation_scannet_scene0_full_1955.png">
+                      <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                        w/ edge priors
+                      </div>
+                    </div>
+
+                    <div class="bal-before" style="width:96.4968152866242%;">
+                      <div class="bal-before-inset" style="width: 539px;">
+                        <img src="./static/images/render/ablation_scannet_scene0_main_1955.png">
+                        <div class="bal-beforePosition beforeLabel">
+                          w/o edge priors
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="bal-handle" style="left:96.4968152866242%;">
+                      <span class=" handle-left-arrow"></span>
+                      <span class="handle-right-arrow"></span>
+                    </div>
+
+                  </div>
+
+
+                  <div id="example8" class="bal-container-small">
+
+                    <div class="bal-after">
+                      <img src="./static/images/render/ablation_scannet_scene0_scaleoff_downsample.png">
+                      <div class="bal-afterPosition afterLabel">
+                        w/ GSP
+                      </div>
+                    </div>
+
+                    <div class="bal-before" style="width: 50%;">
+                      <div class="bal-before-inset" style="width: 539px;">
+                        <img src="./static/images/render/ablation_scannet_scene0_scaleoff_main.png">
+                        <div class="bal-beforePosition beforeLabel">
+                          w/o GSP
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="bal-handle" style="left: 50%;">
+                      <span class=" handle-left-arrow"></span>
+                      <span class="handle-right-arrow"></span>
+                    </div>
+
+                  </div>
+           
+                </div>
+              </div>
+            </div>
+          </div>
 
              <div class="content has-text-justified">
                <h2 class="title is-4" style="color: #e25757;font-weight: bolder;">TUM-RGBD Dataset</h2>
@@ -329,7 +389,7 @@
 
   
 
-  <section class="section">
+  <!-- section class="section">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-full-width">
@@ -344,7 +404,7 @@
         </div>
       </div>
     </div>
-  </section>
+</section --!>
 
   
   <section class="section">
